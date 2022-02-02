@@ -30,6 +30,8 @@ There are two steps to use MASS for similarity search task.
 
 ```
 from mass_fft.mass3_fft_pyfftw import Mass3
+import numpy as np
+
 n = 5000
 m = 200
 mass = Mass3(n, m)
